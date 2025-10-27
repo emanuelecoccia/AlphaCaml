@@ -1,3 +1,3 @@
 **Description**
 
-Side project on recreating AlphaZero using Ocaml
+Recreating AlphaZero using Ocaml
