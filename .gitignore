@@ -1,2 +1,5 @@
 */settings.json
 _build/*
+_opam/*
+dev-tools.locks/*
+dune.lock/*
