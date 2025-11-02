@@ -1,5 +1,1 @@
-open Core
-
-type t :
-| White
-| Black
+type t
