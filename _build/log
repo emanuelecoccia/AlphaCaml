@@ -1,0 +1,6 @@
+# dune init project AlphaCaml
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/emanuele/.cache/dune/db
+# Workspace root: /Users/emanuele/Documents/GitHub/AlphaCaml
+# Auto-detected concurrency: 8
