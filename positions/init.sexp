@@ -17,7 +17,7 @@
    (((file 3) (rank 5)) ()) (((file 3) (rank 6)) ((Pawn Black))) (((file 3) (rank 7)) ((Queen Black)))
    (((file 4) (rank 0)) ((King White))) (((file 4) (rank 1)) ((Pawn White)))
    (((file 4) (rank 2)) ()) (((file 4) (rank 3)) ()) (((file 4) (rank 4)) ())
-   (((file 4) (rank 5)) ()) (((file 4) (rank 6)) (((file 4) (rank 7)) ((King Black)))
+   (((file 4) (rank 5)) ()) (((file 4) (rank 6)) ((Pawn Black))) (((file 4) (rank 7)) ((King Black)))
    (((file 5) (rank 0)) ((Bishop White)))
    (((file 5) (rank 1)) ((Pawn White))) (((file 5) (rank 2)) ())
    (((file 5) (rank 3)) ()) (((file 5) (rank 4)) ()) (((file 5) (rank 5)) ())
