@@ -6,3 +6,5 @@ type t =
   | Queen of Color.t
   | King of Color.t
 [@@deriving sexp]
+
+val to_ascii : t -> string
