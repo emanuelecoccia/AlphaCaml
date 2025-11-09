@@ -1,3 +1,1 @@
-type t =
-| White
-| Black
+type t = White | Black [@@deriving sexp]
