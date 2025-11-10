@@ -1,4 +1,8 @@
-type t [@@deriving sexp]
+module Board : sig
+  type t [@@deriving sexp]
+end
+
+type t = { board : Board.t; turn : Color.t } [@@deriving sexp]
 
 val init : unit -> t
 val print_position : t -> unit
