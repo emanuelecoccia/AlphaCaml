@@ -13,9 +13,9 @@ module Promotion = struct
   [@@deriving sexp]
 end
 
-type t =
-  | Vanilla of Vanilla.t
-  | Promotion of Promotion.t
-  | CastleKingside
-  | CastleQueenside
+module Castle = struct
+  type t = Kingside | Queenside [@@deriving sexp]
+end
+
+type t = Vanilla of Vanilla.t | Promotion of Promotion.t | Castle of Castle.t
 [@@deriving sexp]
