@@ -1,7 +1,8 @@
 open Core
 
 module T = struct
-  type t = { file : int; rank : int } [@@deriving sexp, compare]
+  type t = { file : int; rank : int }
+  [@@deriving sexp, compare, fields ~getters]
 end
 
 include T

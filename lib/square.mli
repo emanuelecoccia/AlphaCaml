@@ -1,6 +1,6 @@
 open Core
 
-type t [@@deriving sexp, compare]
+type t = { file : int; rank : int } [@@deriving sexp, compare, fields ~getters]
 
 include Comparable.S with type t := t
 
