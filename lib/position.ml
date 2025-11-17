@@ -46,3 +46,6 @@ let print_position (pos : t) =
   Board.print pos.board;
   printf "%s to move. \n"
     (match pos.turn with White -> "White" | Black -> "Black")
+
+let flip t =
+  { t with turn = (match t.turn with White -> Black | Black -> White) }
