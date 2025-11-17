@@ -14,7 +14,11 @@ module Promotion = struct
 end
 
 module Castle = struct
-  type t = Kingside | Queenside [@@deriving sexp]
+  module Kind = struct
+    type t = Kingside | Queenside [@@deriving sexp]
+  end
+
+  type t = { kind : Kind.t; color : Color.t } [@@deriving sexp]
 end
 
 type t = Vanilla of Vanilla.t | Promotion of Promotion.t | Castle of Castle.t
